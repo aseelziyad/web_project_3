@@ -1,23 +1,32 @@
 .header__lang {
   width: 29px;
   height: 28px;
-  font-family: "inter";
   text-decoration: none;
-  color: #fff;
   font-style: normal;
   font-size: 24px;
   line-height: 28px;
+  opacity: 1;
+  transition: 0.4s;
+  color: #FFFFFF;
 }
 .header__lang + .header__lang {
-  margin-left: 18px;
+  margin: 0 0 0 18px;
 }
 .header__lang:hover {
-  opacity: 0.5;
-  color: green;
+  opacity: 0.8;
 }
 @media screen and (max-width: 320px) {
   .header__lang {
     font-size: 18px;
     line-height: 20px;
+  }
+}
+@media screen and (max-width: 400px){
+  .header__lang{
+      font-size: 18px;
+      line-height: 20px;
+  }
+  .header__lang + .header__lang {
+      margin: 0 0 0 14px;
   }
 }
