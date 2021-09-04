@@ -1,15 +1,14 @@
- .intro__title {
-width: 100%;
-font-weight: 900;
-max-width: 690px;
-margin: 0 auto 40px auto;
-font-size: 54px;
-line-height: 58px;
-margin:  auto;
-color: #FFFFFF;
+.intro__title {
+  width: 100%;
+  font-weight: 900;
+  max-width: 690px;
+  margin: 0 auto 40px auto;
+  font-size: 54px;
+  line-height: 58px;
+  color: #ffffff;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .intro__title {
     max-width: 720px;
     margin: 0 auto 40px auto;
@@ -18,9 +17,9 @@ color: #FFFFFF;
 
 @media only screen and (max-width: 320px) {
   .intro__title {
-      max-width: 288px;
-      font-size: 32px;
-      line-height: 35px;
-      margin: 0 auto 40px auto;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto 40px auto;
   }
 }
