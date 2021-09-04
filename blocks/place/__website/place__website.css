@@ -1,17 +1,17 @@
 .place__website {
-    width: 100%;
-max-width: 456px;
-margin: 0;
+  width: 100%;
+  max-width: 456px;
+  margin: 0;
 }
 
-@media screen and (max-width: 768px){
-.place__website {
+@media screen and (max-width: 768px) {
+  .place__website {
     max-width: 352px;
+  }
 }
+@media screen and (max-width: 320px) {
+  .place__website {
+    max-width: 288px;
+    margin: 0 16px;
+  }
 }
-@media screen and (max-width: 320px){
-    .place__website {
-        max-width: 288px;
-        margin: 0 16px;
-    }
-    }

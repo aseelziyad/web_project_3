@@ -1,27 +1,50 @@
 .cover {
-    max-width: 1184px;
-    min-height: 740px;
-    margin: 92px auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url("/images/cover-route-66.jpg");
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
+  max-width: 1184px;
+  min-height: 740px;
+  width: 100%;
+  margin: 0 48px 0 48px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("../../images/cover-route-66.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.cover::after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  transition: 0.4s;
+}
+.cover:hover::after {
+  opacity: 0.8;
+}
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+    margin: 0;
   }
-  
-  /* .cover::after {
-      width: 100%;
-      height: 100%;
-      content: "";
-      position: absolute;
-      background-color: #2a2c2f;
-      opacity: 0.2;
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
+    margin: 0;
   }
-  .cover:hover::after{
-      opacity: 0.8;
+}
+@media screen and (max-width: 410px) {
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+    margin: 0;
   }
-   */
+}

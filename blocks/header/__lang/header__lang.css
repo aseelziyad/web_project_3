@@ -7,7 +7,8 @@
   line-height: 28px;
   opacity: 1;
   transition: 0.4s;
-  color: #FFFFFF;
+  color: #ffffff;
+  cursor: pointer;
 }
 .header__lang + .header__lang {
   margin: 0 0 0 18px;
@@ -21,12 +22,12 @@
     line-height: 20px;
   }
 }
-@media screen and (max-width: 400px){
-  .header__lang{
-      font-size: 18px;
-      line-height: 20px;
+@media screen and (max-width: 400px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 20px;
   }
   .header__lang + .header__lang {
-      margin: 0 0 0 14px;
+    margin: 0 0 0 14px;
   }
 }

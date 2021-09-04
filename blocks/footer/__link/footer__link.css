@@ -1,15 +1,25 @@
 .footer__link {
-max-width: 42px;
-height: 18px;
-font-weight: normal;
-font-size: 16px;
-line-height: 18px;
-margin-right: 18px;
-color: #FFFFFF;
-text-decoration: none;
-transition: opacity 0.6s ease-in-out;
+  height: 18px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin-right: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.footer__link:first-child {
+  margin-top: 0;
 }
 
 .footer__link:hover {
-    opacity: 0.3;
+  opacity: 0.3;
+  transition: opacity 0.6s ease-in-out;
+}
+
+@media screen and (max-width: 410px) {
+  .footer__link {
+    margin-top: 32px;
+  }
 }
