@@ -9,7 +9,7 @@
   cursor: pointer;
 }
 
-a.footer__link:first-child {
+.footer__link:first-child {
   margin-top: 0;
 }
 
@@ -20,6 +20,6 @@ a.footer__link:first-child {
 
 @media screen and (max-width: 410px) {
   .footer__link {
-    margin-top: 32px;
+    margin: 32px 0 0 0;
   }
 }

@@ -1,6 +1,5 @@
 .photo-grid {
-  width: 100%;
-  max-width: 1184px;
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -24,6 +23,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(8, 1fr);
     margin: 0 24px 88px 24px;
+    height: 1664px;
   }
 }
 
@@ -34,5 +34,6 @@
     grid-template-rows: repeat(12, 1fr);
     margin: 0 16px 64px 16px;
     gap: 12px;
+    height: 2724px;
   }
 }

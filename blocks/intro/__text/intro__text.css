@@ -4,7 +4,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26.08px;
-  margin: 0 auto 34px auto;
+  margin: 0 0 34px 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,6 +17,5 @@
     max-width: 288px;
     font-size: 16px;
     line-height: 26px;
-    margin: 0 auto 34px auto;
   }
 }
