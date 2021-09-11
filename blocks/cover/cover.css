@@ -1,8 +1,7 @@
 .cover {
   max-width: 1184px;
   min-height: 740px;
-  /* width: 100%; */
-  margin: 0 48px 0 48px;
+  margin: 0 auto;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -38,13 +37,11 @@
   .cover {
     max-width: 768px;
     min-height: 480px;
-    margin: 0;
   }
 }
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 320px) {
   .cover {
     max-width: 320px;
     min-height: 200px;
-    margin: 0;
   }
 }

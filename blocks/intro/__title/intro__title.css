@@ -8,12 +8,6 @@
   color: #ffffff;
 }
 
-@media only screen and (max-width: 768px) {
-  .intro__title {
-    max-width: 720px;
-  }
-}
-
 @media only screen and (max-width: 320px) {
   .intro__title {
     max-width: 288px;

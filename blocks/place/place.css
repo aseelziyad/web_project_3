@@ -1,10 +1,12 @@
 .place {
-  max-width: 100%;
-  max-width: calc(287px * 3);
+  max-width: 984px;
   margin: 0 0 80px 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-  grid-gap: 40px 48px;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-areas: */
+  /* "place__title place__website"
+  "place__image place__paragraphs"; */
+  grid-gap: 48px 40px;
   text-align: left;
 }
 
@@ -14,25 +16,31 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    /* max-width: 928px;
-    grid-template-columns: repeat(2, 1fr); */
-    gap: 32px 48px;
+    max-width: 928px;
+    gap: 48px 32px;
   }
+}
 
-  @media screen and (max-width: 768px) {
-    .place {
-      /* max-width: 720px;
-      grid-template-columns: repeat(2, 1fr); */
-      gap: 28px 48px;
-    }
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    gap: 48px 28px;
+    margin: 0 0 72px 0;
   }
+}
 
-  @media screen and (max-width: 320px) {
-    .place {
-      /* max-width: 320px;
-      grid-template-columns: repeat(1, 1fr); */
-      row-gap: 30px;
-      margin-bottom: 73px;
-    }
+@media screen and (max-width: 515px) {
+  .place {
+    grid-template-columns: 1fr;
+    margin: 0 auto 72px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    row-gap: 30px;
+    margin: 0 0 48px 0;
   }
 }

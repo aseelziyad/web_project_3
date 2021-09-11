@@ -11,7 +11,7 @@
   <body class="page">
     <div class="page__wrapper">
       <header class="header">
-        <img src="images/logo.png" alt="USA map" class="header__logo" />
+        <img src="images/logo.svg" alt="USA map" class="header__logo" />
         <div class="header__container">
           <a class="header__lang header__lang_underline" href="#">En</a>
           <a class="header__lang" href="#">Es</a>
@@ -24,12 +24,14 @@
           <p class="lead__subtitle">
             An epic bicycle journey from Portland, ME. to Portland, OR
           </p>
-          <img
-            src="images/kalegin-michaill-179870-unsplash.png"
-            alt="mountain"
-            class="lead__image"
-          />
-          <p class="lead__caption">Your journey starts here</p>
+            <img
+              src="images/kalegin-michaill-179870-unsplash.png"
+              alt="mountain"
+              class="lead__image"
+            />
+            <P class="lead__caption">
+              Your journey starts here
+            </P>
         </section>
 
         <article class="intro">
@@ -51,22 +53,22 @@
             even stopping by famous author Stephen King's house to say hi and
             asking him to sign your favorite book
           </p>
-          <ul class="intro__list">
-            <li>
+          <ul class="intro__lists">
+            <li class="intro__list">
               Distance (miles)
-              <span class="intro__list-numers">3,644</span>
+              <span class="intro__list-numbers">3,644</span>
             </li>
-            <li>
+            <li class="intro__list">
               Travel time (days) (miles)
-              <span class="intro__list-numers">22</span>
+              <span class="intro__list-numbers">22</span>
             </li>
-            <li>
+            <li class="intro__list">
               Highest point (feet)(miles)
-              <span class="intro__list-numers">9,613</span>
+              <span class="intro__list-numbers">9,613</span>
             </li>
-            <li>
+            <li class="intro__list">
               Lowest point (feet)
-              <span class="intro__list-numers">-3</span>
+              <span class="intro__list-numbers">-3</span>
             </li>
           </ul>
         </article>
@@ -74,68 +76,68 @@
         <section class="photo-grid">
           <img
             src="images/photo-grid__item1.png"
-            alt=""
+            alt="highway"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item2.png"
-            alt=""
+            alt="sea"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item3.png"
-            alt=""
+            alt="cotton field"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item4.png"
-            alt=""
+            alt="nature green"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item5.png"
-            alt=""
+            alt="fog"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item6.png"
-            alt=""
+            alt="mountains"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item7.png"
-            alt=""
+            alt="mountains"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item8.png"
-            alt=""
+            alt="flower"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item9.png"
-            alt=""
+            alt="medows"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item10.png"
-            alt=""
+            alt="sand lake"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item11.png"
-            alt=""
+            alt="nature"
             class="photo-grid__item"
           />
           <img
             src="images/photo-grid__item12.png"
-            alt=""
+            alt="highway"
             class="photo-grid__item"
           />
         </section>
 
         <section class="places">
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Maine</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -167,9 +169,9 @@
               </p>
               <p class="place__paragraph">Average cost: $80-100.</p>
             </div>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">New Hampshire</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -204,9 +206,9 @@
               </p>
               <p class="place__paragraph">Average cost: $100-150.</p>
             </div>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">New York</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -238,9 +240,9 @@
                 $10-20.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Erie,PA</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -278,9 +280,9 @@
                 The current cost of a Hershey's Chocolate bar: about 60¢.
               </p>
             </div>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Ohio</h2>
             <div class="place__website">
               <p class="place__url-heading">URL</p>
@@ -310,7 +312,7 @@
                 The cost of a daily ticket: about $100.
               </p>
             </div>
-          </div>
+          </article>
         </section>
 
         <section class="cover">
@@ -324,8 +326,9 @@
             The Main Street of America from Santa Monica, Cal. to Chicago, Ill.
           </p>
         </section>
-
-        <footer class="footer">
+      </main>
+      <footer class="footer">
+        <nav>
           <ul class="footer__links">
             <li>
               <a
@@ -352,9 +355,9 @@
               >
             </li>
           </ul>
-          <p class="footer__copyright">&#169; 2020. Aseel</p>
-        </footer>
-      </main>
+        </nav>
+        <p class="footer__copyright">&#169; 2020. Aseel</p>
+      </footer>
     </div>
   </body>
 </html>
