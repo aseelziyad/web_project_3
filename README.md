@@ -20,9 +20,10 @@ The way you'll do this at work is by exporting images directly from Figma — we
 Good luck and have fun!
 
 From Portland to Portland. 
-This project focused on  summarizing  everything we learned about advanced HTML and CSS in order to build responsive website.
-Design and Specifications based on figma
-HTML and CSS structure is based on BEM methodology 
-Used flex box , grid and media queries properties to make the website responsive 
+This project focused on  summarizing  everything we learned about advanced HTML and CSS in order to build responsive website.<br />
+Design and Specifications based on figma <br />
+HTML and CSS structure is based on BEM methodology <br />
+Used flex box , grid and media queries properties to make the website responsive <br />
 approach from Desktop to mobile 
-resolutions 1280px 1024px 768px 320px   
+resolutions 1280px 1024px 768px 320px   <br />
+Project link : https://aseelziyad.github.io/web_project_3/
