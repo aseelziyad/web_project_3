@@ -10,7 +10,6 @@
   background: url("../../images/cover-route-66.png");
   background-size: cover;
   background-position: center;
-  z-index: 1;
   cursor: pointer;
 }
 

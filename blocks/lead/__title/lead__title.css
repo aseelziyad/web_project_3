@@ -22,5 +22,6 @@
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
+    margin: 0 auto 16px auto;
   }
 }

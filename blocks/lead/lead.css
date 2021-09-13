@@ -1,7 +1,6 @@
 .lead {
   max-width: 984px;
-  margin: 58px auto 92px auto;
-  margin: auto;
+  margin: 0 auto 92px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,20 +9,20 @@
 @media only screen and (max-width: 1024px) {
   .lead {
     max-width: 928px;
-    margin: 50px auto 92px auto;
+    margin: 0 auto 92px auto;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .lead {
     max-width: 768px;
-    margin: 50px auto 88px auto;
+    margin: 0 auto 88px auto;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .lead {
     max-width: 320px;
-    margin: 50px auto 64px auto;
+    margin: 0 auto 64px auto;
   }
 }
